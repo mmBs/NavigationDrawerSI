@@ -23,11 +23,11 @@ Author: Michal Bialas
 
 You can find me on
 
-<a href="https://plus.google.com/u/0/111871061538679318016/">
+<a href="https://plus.google.com/u/0/111871061538679318016/" target="_blank">
   <img alt="Follow me on Google+"
        src="https://github.com/mmBs/NavigationDrawerSI/blob/master/images/gplus.png" />
 </a>
-<a href="https://twitter.com/mmbialas">
+<a href="https://twitter.com/mmbialas" target="_blank">
   <img alt="Follow me on Twitter"
        src="https://github.com/mmBs/NavigationDrawerSI/blob/master/images/twitter.png" />
 </a>
