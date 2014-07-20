@@ -12,6 +12,26 @@ Screens
 ![Screen](/images/screens.png)
 
 
+Google Play
+-------
+
+You can get this example on Google Play [![Get it on Google Play](http://www.android.com/images/brand/get_it_on_play_logo_small.png)](https://play.google.com/store/apps/details?id=mmbialas.pl.navigationdrawersi)
+
+Credits
+-------
+Author: Michal Bialas
+
+You can find me on
+
+<a href="https://plus.google.com/u/0/111871061538679318016/">
+  <img alt="Follow me on Google+"
+       src="https://github.com/mmBs/NavigationDrawerSI/images/gplus.png" />
+</a>
+<a href="https://twitter.com/mmbialas">
+  <img alt="Follow me on Twitter"
+       src="https://github.com/mmBs/NavigationDrawerSI/images/twitter.png" />
+</a>
+
 License
 -------
 
