@@ -25,11 +25,11 @@ You can find me on
 
 <a href="https://plus.google.com/u/0/111871061538679318016/">
   <img alt="Follow me on Google+"
-       src="https://github.com/mmBs/NavigationDrawerSI/images/gplus.png" />
+       src="https://github.com/mmBs/NavigationDrawerSI/blob/master/images/gplus.png" />
 </a>
 <a href="https://twitter.com/mmbialas">
   <img alt="Follow me on Twitter"
-       src="https://github.com/mmBs/NavigationDrawerSI/images/twitter.png" />
+       src="https://github.com/mmBs/NavigationDrawerSI/blob/master/images/twitter.png" />
 </a>
 
 License
