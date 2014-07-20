@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView style="@style/ScrollView">
+<ScrollView style="@style/ScrollView"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                  xmlns:app="http://schemas.android.com/apk/res-auto"
-                  style="@style/LinearLayout"
-                  android:id="@+id/fragmentAbout"
-                  android:padding="@dimen/default_padding">
+    <LinearLayout
+            style="@style/LinearLayout"
+            android:id="@+id/fragmentAbout"
+            android:padding="@dimen/default_padding">
 
         <com.devspark.robototextview.widget.RobotoTextView
                 style="@style/Wrap"

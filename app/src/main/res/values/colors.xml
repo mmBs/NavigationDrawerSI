@@ -9,10 +9,8 @@
     <color name="background_user_navigation_drawer">#161F29</color>
     <color name="transparent">#00000000</color>
 
-    <color name="grey_light">#ffd2d2d2</color>
     <color name="grey_font">#333333</color>
 
-    <color name="blue_super_light">#C2E9F6</color>
     <color name="blue_light">#33B5E5</color>
     <color name="purple_light">#AA66CC</color>
     <color name="green_light">#99CC00</color>
