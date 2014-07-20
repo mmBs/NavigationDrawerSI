@@ -28,7 +28,7 @@
         <com.devspark.robototextview.widget.RobotoTextView
                 style="@style/Wrap"
                 android:id="@+id/aboutContact"
-                app:fontFamily="roboto"
+                app:typeface="roboto_light"
                 android:textSize="@dimen/text_size_medium"
                 android:text="@string/about_contact"/>
 
