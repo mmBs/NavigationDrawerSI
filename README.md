@@ -3,9 +3,11 @@ NavigationDrawerSI
 
 A **Navigation Drawer Simple Implementation** is an example of using a **New/Bind pattern** presented by Jake Wharton and a **ButterKnife** library (also by Jake Wharton) to create a simple Navigation Drawer implementation.
 
-The Navigation Drawer pattern was built according to Google Play Navigation Drawer.
+The Navigation Drawer pattern was built according to the look of the Google Play Navigation Drawer.
 
 This project was created only for development purposes. 
+
+All your support, feedback and comments will be truly appreciated! :)
 
 Screens
 -------
