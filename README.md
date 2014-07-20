@@ -5,6 +5,8 @@ A Navigation Drawer Simple Implementation is an example of using a New/Bind patt
 
 The Navigation Drawer pattern was built according to Google Play Navigation Drawer, but it did not cover it in 100%.
 
+![Screen](/images/screens.png)
+
 
 License
 -------
