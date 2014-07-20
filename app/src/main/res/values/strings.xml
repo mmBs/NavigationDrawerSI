@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NavigationDrawerSI</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="fragment_one">One</string>
+    <string name="fragment_two">Two</string>
+    <string name="fragment_three">Three</string>
+    <string name="fragment_about">About</string>
+
+    <string name="number1">I</string>
+    <string name="number2">II</string>
+    <string name="number3">III</string>
+
+    <string name="fragment">Fragment</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="user_name">Michal Bialas</string>
+    <string name="user_email">navigationdrawersi@gmail.com</string>
+
+    <string name="content_description">image view</string>
+
+
+    <string name="about_text">This application is an example of a Navigation Drawer implementation using a new/bind pattern and the ButterKnife library.</string>
+    <string name="about_text2">It was written only for development purposes.</string>
+
+    <string name="about_author">Author: Michal Bialas</string>
+    <string name="about_contact">Contact: navigationdrawersi@gmail.com</string>
+    <string name="about_libraries">Libraries:</string>
+    <string name="about_butterknife">ButterKnife by Jake Wharton</string>
+    <string name="about_robototextview">RobotoTextView by Evgeny Shishkin</string>
+
+    <string name="about_msg_subject">[NavigationDrawerSI]</string>
+    <string name="about_mail_chooser">Send with</string>
+    <string name="about_intent_failed">The requested application could not be launched.</string>
+</resources>
