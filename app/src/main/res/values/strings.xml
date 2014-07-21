@@ -19,7 +19,7 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="user_name">Michal Bialas</string>
-    <string name="user_email">navigationdrawersi@gmail.com</string>
+    <string name="user_email">mmbialas@gmail.com</string>
 
     <string name="content_description">image view</string>
 
@@ -28,7 +28,7 @@
     <string name="about_text2">It was written only for development purposes.</string>
 
     <string name="about_author">Author: Michal Bialas</string>
-    <string name="about_contact">Contact: navigationdrawersi@gmail.com</string>
+    <string name="about_contact">Contact: mmbialas@gmail.com</string>
     <string name="about_libraries">Libraries:</string>
     <string name="about_butterknife">ButterKnife by Jake Wharton</string>
     <string name="about_robototextview">RobotoTextView by Evgeny Shishkin</string>
