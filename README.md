@@ -1,4 +1,4 @@
-NavigationDrawerSI
+Navigation Drawer SI
 ==================
 
 A **Navigation Drawer Simple Implementation** is an example of using a **New/Bind pattern** presented by Jake Wharton and a **ButterKnife** library (also by Jake Wharton) to create a simple Navigation Drawer implementation.
