@@ -19,7 +19,7 @@ Google Play
 
 You can get this example on Google Play 
 
-[![Get it on Google Play](http://www.android.com/images/brand/get_it_on_play_logo_small.png)](https://play.google.com/store/apps/details?id=mmbialas.pl.navigationdrawersi)
+[![Get it on Google Play](http://developer.android.com/images/brand/en_generic_rgb_wo_60.png)](https://play.google.com/store/apps/details?id=mmbialas.pl.navigationdrawersi)
 
 Acknowledgements
 -------
