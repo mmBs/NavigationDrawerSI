@@ -1,9 +1,9 @@
-NavigationDrawerSI
+Navigation Drawer SI
 ==================
 
 A **Navigation Drawer Simple Implementation** is an example of using a **New/Bind pattern** presented by Jake Wharton and a **ButterKnife** library (also by Jake Wharton) to create a simple Navigation Drawer implementation.
 
-The Navigation Drawer pattern was built according to the look of the Google Play Navigation Drawer and it is binded to 4 Fragments. For mor information about this pattern visit [the official Navigation Drawer site](http://developer.android.com/design/patterns/navigation-drawer.html).
+The Navigation Drawer pattern was built according to the look of the Google Play Navigation Drawer and it is binded to 4 Fragments. For more information about this pattern visit [the official Navigation Drawer site](http://developer.android.com/design/patterns/navigation-drawer.html).
 
 This project was created only for development purposes. It implements Action Bar (appcompat) and supports Android 2.3 and above.
 
@@ -19,7 +19,7 @@ Google Play
 
 You can get this example on Google Play 
 
-[![Get it on Google Play](http://www.android.com/images/brand/get_it_on_play_logo_small.png)](https://play.google.com/store/apps/details?id=mmbialas.pl.navigationdrawersi)
+[![Get it on Google Play](http://developer.android.com/images/brand/en_generic_rgb_wo_60.png)](https://play.google.com/store/apps/details?id=mmbialas.pl.navigationdrawersi)
 
 Acknowledgements
 -------
