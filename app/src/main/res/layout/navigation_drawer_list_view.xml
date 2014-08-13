@@ -3,13 +3,11 @@
 <mmbialas.pl.navigationdrawersi.ui.navigationdrawer.NavigationDrawerView
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        style="@style/Match">
 
     <ProgressBar
             android:id="@+id/bookingProgress"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/Wrap"
             android:layout_gravity="center"/>
     <ListView
             android:id="@+id/leftDrawerListView"

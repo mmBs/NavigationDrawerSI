@@ -9,6 +9,7 @@
 
     <!-- Navigation Drawer -->
     <dimen name="navigation_drawer_width">240dp</dimen>
+    <dimen name="navigation_drawer_image_view_size">25dp</dimen>
 
     <dimen name="navigation_drawer_personal_data_layout_height">60dp</dimen>
 

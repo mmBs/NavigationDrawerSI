@@ -11,8 +11,8 @@
 
     <ImageView
             android:id="@+id/navigationDrawerItemIconIV"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:layout_width="@dimen/navigation_drawer_image_view_size"
+            android:layout_height="@dimen/navigation_drawer_image_view_size"
             android:contentDescription="@string/content_description"
             android:layout_centerVertical="true"
             android:layout_marginLeft="@dimen/default_small_padding"
@@ -20,8 +20,7 @@
 
     <TextView
             android:id="@+id/navigationDrawerItemTitleTV"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/Wrap"
             android:layout_marginLeft="12dp"
             android:textColor="@color/gray"
             android:textSize="@dimen/text_size_large"
