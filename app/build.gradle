@@ -21,6 +21,19 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             zipAlign true
         }
+        android.applicationVariants.all{ variant ->
+            variant.mergeAssets.doFirst {
+                File fonts = file("${projectDir}/build/intermediates/exploded-aar/com.github.johnkil.android-robototextview/robototextview/2.1.0/assets/fonts")
+                if (fonts.exists()) {
+                    for (File file : fonts.listFiles()) {
+                        if (file.getName().contains("RobotoSlab") || file.getName().contains("RobotoCondensed")) {
+                            println("delete " + file.getName() + " font")
+                            file.delete()
+                        };
+                    }
+                }
+            }
+        }
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_7
