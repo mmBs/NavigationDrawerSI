@@ -9,6 +9,10 @@ This project was created only for development purposes. It implements Action Bar
 
 All your support, feedback, stars, forks, Pull Requests and comments will be truly appreciated! :)
 
+The project is supported by
+
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-NavigationDrawerSI-blue.svg?style=flat)](https://android-arsenal.com/details/3/748)
+
 Screens
 -------
 ![Screen](/images/screens.png)
