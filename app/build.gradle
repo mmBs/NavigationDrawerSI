@@ -48,5 +48,5 @@ dependencies {
     compile 'com.jakewharton:butterknife:5.1.2'
     compile 'com.jakewharton.timber:timber:2.4.+'
 
-    compile 'com.github.johnkil.android-robototextview:robototextview:2.1.0'
+    compile 'com.github.johnkil.android-robototextview:robototextview:2.2.0'
 }
