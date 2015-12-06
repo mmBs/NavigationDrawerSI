@@ -42,11 +42,11 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:20.+'
-    compile 'com.android.support:support-v4:20.+'
+    compile 'com.android.support:appcompat-v7:21.+'
+    compile 'com.android.support:support-v4:21.+'
 
-    compile 'com.jakewharton:butterknife:5.1.2'
-    compile 'com.jakewharton.timber:timber:2.4.+'
+    compile 'com.jakewharton:butterknife:6.0.0'
+    compile 'com.jakewharton.timber:timber:2.5.0'
 
     compile 'com.github.johnkil.android-robototextview:robototextview:2.2.0'
 }
