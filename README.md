@@ -5,7 +5,8 @@ A **Navigation Drawer Simple Implementation** is an example of using a **New/Bin
 
 The Navigation Drawer pattern was built according to the look of the Google Play Navigation Drawer (Holo design) and it is bound to 4 Fragments. For more information about this pattern visit [the official Navigation Drawer site](http://developer.android.com/design/patterns/navigation-drawer.html).
 
-This project was created only for development purposes. It implements Action Bar (appcompat) and supports Android 2.3 and above.
+This project was created only for development purposes. It implements Action Bar (appcompat) and supports Android 2.3 and above.  
+Please, remember that it uses a deprecated `ActionBarDrawerToggle` and to setup up-to-date Navigation Drawer pattern with the new API, you should use [NavigationView](https://developer.android.com/reference/android/support/design/widget/NavigationView.html) which is typically placed inside a [DrawerLayout](https://developer.android.com/reference/android/support/v4/widget/DrawerLayout.html).
 
 All your support, feedback, stars, forks, Pull Requests and comments will be truly appreciated! :)
 
