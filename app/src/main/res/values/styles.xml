@@ -1,43 +1,43 @@
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.Navigationdrawersi">
-        <!-- Customize your theme here. -->
-    </style>
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.Navigationdrawersi">
+    <!-- Customize your theme here. -->
+  </style>
 
-    <style name="Match">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">match_parent</item>
-    </style>
+  <style name="Match">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">match_parent</item>
+  </style>
 
-    <style name="Wrap">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-    </style>
+  <style name="Wrap">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+  </style>
 
-    <style name="MatchWidth" parent="Match">
-        <item name="android:layout_height">wrap_content</item>
-    </style>
+  <style name="MatchWidth" parent="Match">
+    <item name="android:layout_height">wrap_content</item>
+  </style>
 
-    <style name="ScrollView" parent="Match">
-        <item name="android:fillViewport">true</item>
-    </style>
+  <style name="ScrollView" parent="Match">
+    <item name="android:fillViewport">true</item>
+  </style>
 
-    <style name="LinearLayout" parent="Match">
-        <item name="android:orientation">vertical</item>
-    </style>
+  <style name="LinearLayout" parent="Match">
+    <item name="android:orientation">vertical</item>
+  </style>
 
-    <style name="RobotoTextView" parent="Wrap">
-        <item name="android:textColor">@color/white</item>
-        <item name="android:layout_gravity">center</item>
-    </style>
+  <style name="RobotoTextView" parent="Wrap">
+    <item name="android:textColor">@color/white</item>
+    <item name="android:layout_gravity">center</item>
+  </style>
 
-    <style name="RobotoTextView.Number">
-        <item name="android:textSize">@dimen/text_size_fragment_number</item>
-    </style>
+  <style name="RobotoTextView.Number">
+    <item name="android:textSize">@dimen/text_size_fragment_number</item>
+  </style>
 
-    <style name="RobotoTextView.Fragment">
-        <item name="android:textSize">@dimen/text_size_xlarge</item>
-    </style>
+  <style name="RobotoTextView.Fragment">
+    <item name="android:textSize">@dimen/text_size_xlarge</item>
+  </style>
 
 </resources>

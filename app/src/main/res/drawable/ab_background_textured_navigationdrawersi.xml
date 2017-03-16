@@ -18,4 +18,4 @@
 
 <bitmap xmlns:android="http://schemas.android.com/apk/res/android"
     android:src="@drawable/ab_texture_tile_navigationdrawersi"
-    android:tileMode="repeat" />
+    android:tileMode="repeat"/>

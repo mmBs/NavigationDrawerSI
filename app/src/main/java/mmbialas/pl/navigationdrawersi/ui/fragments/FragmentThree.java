@@ -17,24 +17,19 @@ import mmbialas.pl.navigationdrawersi.R;
  */
 public class FragmentThree extends Fragment {
 
-    @InjectView(R.id.circleLayout)
-    LinearLayout circleLayout;
+  @InjectView(R.id.circleLayout) LinearLayout circleLayout;
 
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup containter,
-            Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_three, containter, false);
-        ButterKnife.inject(this, view);
-        ((GradientDrawable) circleLayout.getBackground())
-                .setColor(getResources().getColor(R.color.material_purple));
-        return view;
-    }
+  @Override public View onCreateView(LayoutInflater inflater, ViewGroup containter,
+      Bundle savedInstanceState) {
+    View view = inflater.inflate(R.layout.fragment_three, containter, false);
+    ButterKnife.inject(this, view);
+    ((GradientDrawable) circleLayout.getBackground()).setColor(
+        getResources().getColor(R.color.material_purple));
+    return view;
+  }
 
-    @Override
-    public void onDestroyView() {
-        super.onDestroyView();
-        ButterKnife.reset(this);
-    }
-
-
+  @Override public void onDestroyView() {
+    super.onDestroyView();
+    ButterKnife.reset(this);
+  }
 }

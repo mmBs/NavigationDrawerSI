@@ -1,26 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:app="http://schemas.android.com/apk/res-auto"
-                style="@style/Match"
-                android:id="@+id/fragmentOne">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Match"
+    android:id="@+id/fragmentOne"
+    >
 
-    <LinearLayout
-            android:id="@+id/circleLayout"
-            style="@style/Wrap"
-            android:orientation="vertical"
-            android:padding="@dimen/default_small_padding"
-            android:layout_centerInParent="true"
-            android:background="@drawable/background_circle">
+  <LinearLayout
+      android:id="@+id/circleLayout"
+      style="@style/Wrap"
+      android:orientation="vertical"
+      android:padding="@dimen/default_small_padding"
+      android:layout_centerInParent="true"
+      android:background="@drawable/background_circle"
+      >
 
-        <com.devspark.robototextview.widget.RobotoTextView
-                style="@style/RobotoTextView.Number"
-                app:typeface="roboto_light"
-                android:text="@string/number1"/>
-        <com.devspark.robototextview.widget.RobotoTextView
-                style="@style/RobotoTextView.Fragment"
-                app:typeface="roboto_thin_italic"
-                android:text="@string/fragment"/>
-    </LinearLayout>
+    <com.devspark.robototextview.widget.RobotoTextView
+        style="@style/RobotoTextView.Number"
+        app:typeface="roboto_light"
+        android:text="@string/number1"
+        />
+    <com.devspark.robototextview.widget.RobotoTextView
+        style="@style/RobotoTextView.Fragment"
+        app:typeface="roboto_thin_italic"
+        android:text="@string/fragment"
+        />
+  </LinearLayout>
 
 </RelativeLayout>

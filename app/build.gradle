@@ -1,52 +1,55 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 21
-    buildToolsVersion "25.0.2"
+  compileSdkVersion 21
+  buildToolsVersion "25.0.2"
 
-    defaultConfig {
-        applicationId "mmbialas.pl.navigationdrawersi"
-        minSdkVersion 10
-        targetSdkVersion 21
-        versionCode 4
-        versionName "1.0.3"
+  defaultConfig {
+    applicationId "mmbialas.pl.navigationdrawersi"
+    minSdkVersion 10
+    targetSdkVersion 21
+    versionCode 4
+    versionName "1.0.3"
+  }
+  lintOptions {
+    disable 'InvalidPackage'
+    abortOnError false
+  }
+  buildTypes {
+    release {
+      minifyEnabled false
+      proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+      zipAlignEnabled true
     }
-    lintOptions {
-        disable 'InvalidPackage'
-        abortOnError false
-    }
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            zipAlignEnabled true
+    android.applicationVariants.all { variant ->
+      variant.mergeAssets.doFirst {
+        File fonts = file(
+            "${projectDir}/build/intermediates/exploded-aar/com.github.johnkil.android-robototextview/robototextview/2.2.0/assets/fonts")
+        if (fonts.exists()) {
+          for (File file : fonts.listFiles()) {
+            if (file.getName().contains("RobotoSlab") || file.getName().
+                contains("RobotoCondensed")) {
+              println("delete " + file.getName() + " font")
+              file.delete()
+            };
+          }
         }
-        android.applicationVariants.all{ variant ->
-            variant.mergeAssets.doFirst {
-                File fonts = file("${projectDir}/build/intermediates/exploded-aar/com.github.johnkil.android-robototextview/robototextview/2.2.0/assets/fonts")
-                if (fonts.exists()) {
-                    for (File file : fonts.listFiles()) {
-                        if (file.getName().contains("RobotoSlab") || file.getName().contains("RobotoCondensed")) {
-                            println("delete " + file.getName() + " font")
-                            file.delete()
-                        };
-                    }
-                }
-            }
-        }
+      }
     }
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_7
-        targetCompatibility JavaVersion.VERSION_1_7
-    }
+  }
+  compileOptions {
+    sourceCompatibility JavaVersion.VERSION_1_7
+    targetCompatibility JavaVersion.VERSION_1_7
+  }
 }
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:21.+'
-    compile 'com.android.support:support-v4:21.+'
+  compile 'com.android.support:appcompat-v7:21.+'
+  compile 'com.android.support:support-v4:21.+'
 
-    compile 'com.jakewharton:butterknife:6.0.0'
-    compile 'com.jakewharton.timber:timber:2.5.0'
+  compile 'com.jakewharton:butterknife:6.0.0'
+  compile 'com.jakewharton.timber:timber:2.5.0'
 
-    compile 'com.github.johnkil.android-robototextview:robototextview:2.2.0'
+  compile 'com.github.johnkil.android-robototextview:robototextview:2.2.0'
 }
+

@@ -1,28 +1,28 @@
 <resources>
 
-    <dimen name="action_bar_height">48dp</dimen>
-    <dimen name="default_horizontal_margin">16dp</dimen>
-    <dimen name="default_vertical_margin">16dp</dimen>
-    <dimen name="default_padding">16dp</dimen>
-    <dimen name="default_small_padding">8dp</dimen>
-    <dimen name="reset_dimen">0dp</dimen>
+  <dimen name="action_bar_height">48dp</dimen>
+  <dimen name="default_horizontal_margin">16dp</dimen>
+  <dimen name="default_vertical_margin">16dp</dimen>
+  <dimen name="default_padding">16dp</dimen>
+  <dimen name="default_small_padding">8dp</dimen>
+  <dimen name="reset_dimen">0dp</dimen>
 
-    <!-- Navigation Drawer -->
-    <dimen name="navigation_drawer_width">240dp</dimen>
-    <dimen name="navigation_drawer_image_view_size">25dp</dimen>
+  <!-- Navigation Drawer -->
+  <dimen name="navigation_drawer_width">240dp</dimen>
+  <dimen name="navigation_drawer_image_view_size">25dp</dimen>
 
-    <dimen name="navigation_drawer_personal_data_layout_height">60dp</dimen>
+  <dimen name="navigation_drawer_personal_data_layout_height">60dp</dimen>
 
-    <!-- Circle size -->
-    <dimen name="circle_width">240dp</dimen>
-    <dimen name="circle_height">240dp</dimen>
+  <!-- Circle size -->
+  <dimen name="circle_width">240dp</dimen>
+  <dimen name="circle_height">240dp</dimen>
 
-    <!-- Fonts' sizes -->
-    <dimen name="text_size_micro">12sp</dimen>
-    <dimen name="text_size_small">14sp</dimen>
-    <dimen name="text_size_medium">18sp</dimen>
-    <dimen name="text_size_large">22sp</dimen>
-    <dimen name="text_size_xlarge">28sp</dimen>
-    <dimen name="text_size_fragment_number">122sp</dimen>
+  <!-- Fonts' sizes -->
+  <dimen name="text_size_micro">12sp</dimen>
+  <dimen name="text_size_small">14sp</dimen>
+  <dimen name="text_size_medium">18sp</dimen>
+  <dimen name="text_size_large">22sp</dimen>
+  <dimen name="text_size_xlarge">28sp</dimen>
+  <dimen name="text_size_fragment_number">122sp</dimen>
 
 </resources>

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
 
-    <size
-            android:width="@dimen/circle_width"
-            android:height="@dimen/circle_height"/>
+  <size
+      android:width="@dimen/circle_width"
+      android:height="@dimen/circle_height"/>
 </shape>

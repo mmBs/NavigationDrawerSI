@@ -9,20 +9,19 @@ import mmbialas.pl.navigationdrawersi.ui.fragments.FragmentTwo;
 
 /**
  * Created by Michal Bialas on 19/07/14.
- *
  */
 public enum Fragments {
 
-    ONE(FragmentOne.class), TWO(FragmentTwo.class), THREE(FragmentThree.class), ABOUT(
-            FragmentAbout.class);
+  ONE(FragmentOne.class), TWO(FragmentTwo.class), THREE(FragmentThree.class), ABOUT(
+      FragmentAbout.class);
 
-    final Class<? extends Fragment> fragment;
+  final Class<? extends Fragment> fragment;
 
-    private Fragments(Class<? extends Fragment> fragment) {
-        this.fragment = fragment;
-    }
+  Fragments(Class<? extends Fragment> fragment) {
+    this.fragment = fragment;
+  }
 
-    public String getFragment() {
-        return fragment.getName();
-    }
+  public String getFragment() {
+    return fragment.getName();
+  }
 }

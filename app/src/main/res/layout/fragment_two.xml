@@ -1,27 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:app="http://schemas.android.com/apk/res-auto"
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" android:id="@+id/fragmentTwo">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragmentTwo"
+    >
 
-    <LinearLayout
-            android:id="@id/circleLayout"
-            style="@style/Wrap"
-            android:orientation="vertical"
-            android:padding="@dimen/default_small_padding"
-            android:layout_centerInParent="true"
-            android:background="@drawable/background_circle">
+  <LinearLayout
+      android:id="@id/circleLayout"
+      style="@style/Wrap"
+      android:orientation="vertical"
+      android:padding="@dimen/default_small_padding"
+      android:layout_centerInParent="true"
+      android:background="@drawable/background_circle"
+      >
 
-        <com.devspark.robototextview.widget.RobotoTextView
-                style="@style/RobotoTextView.Number"
-                app:typeface="roboto_light"
-                android:text="@string/number2"/>
-        <com.devspark.robototextview.widget.RobotoTextView
-                style="@style/RobotoTextView.Fragment"
-                app:typeface="roboto_thin_italic"
-                android:text="@string/fragment"/>
-    </LinearLayout>
+    <com.devspark.robototextview.widget.RobotoTextView
+        style="@style/RobotoTextView.Number"
+        app:typeface="roboto_light"
+        android:text="@string/number2"
+        />
+    <com.devspark.robototextview.widget.RobotoTextView
+        style="@style/RobotoTextView.Fragment"
+        app:typeface="roboto_thin_italic"
+        android:text="@string/fragment"
+        />
+  </LinearLayout>
 
 </RelativeLayout>

@@ -1,31 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <mmbialas.pl.navigationdrawersi.ui.navigationdrawer.NavigationDrawerItemView
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:padding="@dimen/default_small_padding"
-        android:id="@+id/itemRR"
-        android:background="@drawable/navigation_drawer_list_item_bg">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:padding="@dimen/default_small_padding"
+    android:id="@+id/itemRR"
+    android:background="@drawable/navigation_drawer_list_item_bg"
+    >
 
-    <ImageView
-            android:id="@+id/navigationDrawerItemIconIV"
-            android:layout_width="@dimen/navigation_drawer_image_view_size"
-            android:layout_height="@dimen/navigation_drawer_image_view_size"
-            android:contentDescription="@string/content_description"
-            android:layout_centerVertical="true"
-            android:layout_marginLeft="@dimen/default_small_padding"
-            android:visibility="gone"/>
+  <ImageView
+      android:id="@+id/navigationDrawerItemIconIV"
+      android:layout_width="@dimen/navigation_drawer_image_view_size"
+      android:layout_height="@dimen/navigation_drawer_image_view_size"
+      android:contentDescription="@string/content_description"
+      android:layout_centerVertical="true"
+      android:layout_marginLeft="@dimen/default_small_padding"
+      android:visibility="gone"
+      />
 
-    <TextView
-            android:id="@+id/navigationDrawerItemTitleTV"
-            style="@style/Wrap"
-            android:layout_marginLeft="12dp"
-            android:textColor="@color/gray"
-            android:textSize="@dimen/text_size_large"
-            android:textStyle="normal"
-            android:layout_centerVertical="true"
-            android:layout_toRightOf="@+id/navigationDrawerItemIconIV"
-            android:text="@string/app_name"/>
+  <TextView
+      android:id="@+id/navigationDrawerItemTitleTV"
+      style="@style/Wrap"
+      android:layout_marginLeft="12dp"
+      android:textColor="@color/gray"
+      android:textSize="@dimen/text_size_large"
+      android:textStyle="normal"
+      android:layout_centerVertical="true"
+      android:layout_toRightOf="@+id/navigationDrawerItemIconIV"
+      android:text="@string/app_name"
+      />
 </mmbialas.pl.navigationdrawersi.ui.navigationdrawer.NavigationDrawerItemView>

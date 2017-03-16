@@ -1,66 +1,74 @@
 <android.support.v4.widget.DrawerLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/drawerLayout"
-        style="@style/Match">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawerLayout"
+    style="@style/Match"
+    >
 
-    <FrameLayout
-            android:id="@+id/contentFrame"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-    </FrameLayout>
+  <FrameLayout
+      android:id="@+id/contentFrame"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      >
+  </FrameLayout>
 
-    <LinearLayout
-            android:id="@+id/linearDrawer"
-            android:layout_width="@dimen/navigation_drawer_width"
-            android:layout_height="match_parent"
-            android:layout_gravity="start"
-            android:background="@color/background_user_navigation_drawer"
-            android:orientation="vertical">
+  <LinearLayout
+      android:id="@+id/linearDrawer"
+      android:layout_width="@dimen/navigation_drawer_width"
+      android:layout_height="match_parent"
+      android:layout_gravity="start"
+      android:background="@color/background_user_navigation_drawer"
+      android:orientation="vertical"
+      >
 
-        <RelativeLayout
-                android:id="@+id/userDrawerHeader"
-                android:layout_width="@dimen/navigation_drawer_width"
-                android:layout_height="@dimen/navigation_drawer_personal_data_layout_height">
+    <RelativeLayout
+        android:id="@+id/userDrawerHeader"
+        android:layout_width="@dimen/navigation_drawer_width"
+        android:layout_height="@dimen/navigation_drawer_personal_data_layout_height"
+        >
 
-            <ImageView
-                    android:id="@+id/drawerUserImage"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:layout_alignParentLeft="true"
-                    android:layout_centerVertical="true"
-                    android:layout_marginLeft="16dp"
-                    android:contentDescription="@string/app_name"
-                    android:src="@drawable/my_photo_for_drawer"/>
+      <ImageView
+          android:id="@+id/drawerUserImage"
+          android:layout_width="40dp"
+          android:layout_height="40dp"
+          android:layout_alignParentLeft="true"
+          android:layout_centerVertical="true"
+          android:layout_marginLeft="16dp"
+          android:contentDescription="@string/app_name"
+          android:src="@drawable/my_photo_for_drawer"
+          />
 
-            <TextView
-                    android:id="@+id/drawerUserName"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginRight="16dp"
-                    android:layout_toRightOf="@id/drawerUserImage"
-                    android:text="@string/user_name"
-                    android:textColor="@color/white"
-                    android:textStyle="bold"
-                    android:textSize="@dimen/text_size_medium"/>
+      <TextView
+          android:id="@+id/drawerUserName"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="8dp"
+          android:layout_marginRight="16dp"
+          android:layout_marginTop="10dp"
+          android:layout_toRightOf="@id/drawerUserImage"
+          android:text="@string/user_name"
+          android:textColor="@color/white"
+          android:textSize="@dimen/text_size_medium"
+          android:textStyle="bold"
+          />
 
-            <TextView
-                    android:id="@+id/drawerUserEmail"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_alignLeft="@id/drawerUserName"
-                    android:layout_below="@+id/drawerUserName"
-                    android:text="@string/user_email"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/text_size_micro"/>
+      <TextView
+          android:id="@+id/drawerUserEmail"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@id/drawerUserName"
+          android:layout_below="@+id/drawerUserName"
+          android:text="@string/user_email"
+          android:textColor="@color/white"
+          android:textSize="@dimen/text_size_micro"
+          />
 
-        </RelativeLayout>
+    </RelativeLayout>
 
-        <include
-                android:id="@+id/navigationDrawerListViewWrapper"
-                layout="@layout/navigation_drawer_list_view" />
+    <include
+        layout="@layout/navigation_drawer_list_view"
+        android:id="@+id/navigationDrawerListViewWrapper"
+        />
 
-    </LinearLayout>
+  </LinearLayout>
 </android.support.v4.widget.DrawerLayout>
 

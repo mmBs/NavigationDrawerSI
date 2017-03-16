@@ -18,20 +18,20 @@
 -->
 
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- Non focused states -->
-    <item android:state_focused="false" android:state_selected="false" android:state_pressed="false" android:drawable="@android:color/transparent" />
-    <item android:state_focused="false" android:state_selected="true"  android:state_pressed="false" android:drawable="@drawable/tab_selected_navigationdrawersi" />
+  <!-- Non focused states -->
+  <item android:state_focused="false" android:state_selected="false" android:state_pressed="false" android:drawable="@android:color/transparent"/>
+  <item android:state_focused="false" android:state_selected="true" android:state_pressed="false" android:drawable="@drawable/tab_selected_navigationdrawersi"/>
 
-    <!-- Focused states -->
-    <item android:state_focused="true" android:state_selected="false" android:state_pressed="false" android:drawable="@drawable/tab_unselected_focused_navigationdrawersi" />
-    <item android:state_focused="true" android:state_selected="true"  android:state_pressed="false" android:drawable="@drawable/tab_selected_focused_navigationdrawersi" />
+  <!-- Focused states -->
+  <item android:state_focused="true" android:state_selected="false" android:state_pressed="false" android:drawable="@drawable/tab_unselected_focused_navigationdrawersi"/>
+  <item android:state_focused="true" android:state_selected="true" android:state_pressed="false" android:drawable="@drawable/tab_selected_focused_navigationdrawersi"/>
 
-    <!-- Pressed -->
-    <!--    Non focused states -->
-    <item android:state_focused="false" android:state_selected="false" android:state_pressed="true" android:drawable="@drawable/tab_unselected_pressed_navigationdrawersi" />
-    <item android:state_focused="false" android:state_selected="true"  android:state_pressed="true" android:drawable="@drawable/tab_selected_pressed_navigationdrawersi" />
+  <!-- Pressed -->
+  <!--    Non focused states -->
+  <item android:state_focused="false" android:state_selected="false" android:state_pressed="true" android:drawable="@drawable/tab_unselected_pressed_navigationdrawersi"/>
+  <item android:state_focused="false" android:state_selected="true" android:state_pressed="true" android:drawable="@drawable/tab_selected_pressed_navigationdrawersi"/>
 
-    <!--    Focused states -->
-    <item android:state_focused="true" android:state_selected="false" android:state_pressed="true" android:drawable="@drawable/tab_unselected_pressed_navigationdrawersi" />
-    <item android:state_focused="true" android:state_selected="true"  android:state_pressed="true" android:drawable="@drawable/tab_selected_pressed_navigationdrawersi" />
+  <!--    Focused states -->
+  <item android:state_focused="true" android:state_selected="false" android:state_pressed="true" android:drawable="@drawable/tab_unselected_pressed_navigationdrawersi"/>
+  <item android:state_focused="true" android:state_selected="true" android:state_pressed="true" android:drawable="@drawable/tab_selected_pressed_navigationdrawersi"/>
 </selector>
