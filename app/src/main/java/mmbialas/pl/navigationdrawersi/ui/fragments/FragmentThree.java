@@ -7,9 +7,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-
+import butterknife.BindView;
 import butterknife.ButterKnife;
-import butterknife.InjectView;
+import butterknife.Unbinder;
 import mmbialas.pl.navigationdrawersi.R;
 
 /**
@@ -17,12 +17,13 @@ import mmbialas.pl.navigationdrawersi.R;
  */
 public class FragmentThree extends Fragment {
 
-  @InjectView(R.id.circleLayout) LinearLayout circleLayout;
+  @BindView(R.id.circleLayout) LinearLayout circleLayout;
+  private Unbinder unbinder;
 
   @Override public View onCreateView(LayoutInflater inflater, ViewGroup containter,
       Bundle savedInstanceState) {
     View view = inflater.inflate(R.layout.fragment_three, containter, false);
-    ButterKnife.inject(this, view);
+    unbinder = ButterKnife.bind(this, view);
     ((GradientDrawable) circleLayout.getBackground()).setColor(
         getResources().getColor(R.color.material_purple));
     return view;
@@ -30,6 +31,6 @@ public class FragmentThree extends Fragment {
 
   @Override public void onDestroyView() {
     super.onDestroyView();
-    ButterKnife.reset(this);
+    unbinder.unbind();
   }
 }

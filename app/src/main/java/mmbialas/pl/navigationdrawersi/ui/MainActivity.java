@@ -11,13 +11,11 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.ListView;
-
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.OnItemClick;
 import java.util.ArrayList;
 import java.util.List;
-
-import butterknife.ButterKnife;
-import butterknife.InjectView;
-import butterknife.OnItemClick;
 import mmbialas.pl.navigationdrawersi.R;
 import mmbialas.pl.navigationdrawersi.data.Fragments;
 import mmbialas.pl.navigationdrawersi.data.model.NavigationDrawerItem;
@@ -40,14 +38,14 @@ public class MainActivity extends ActionBarActivity {
 
   private int currentSelectedPosition = 0;
 
-  @InjectView(R.id.navigationDrawerListViewWrapper) NavigationDrawerView
+  @BindView(R.id.navigationDrawerListViewWrapper) NavigationDrawerView
       mNavigationDrawerListViewWrapper;
 
-  @InjectView(R.id.linearDrawer) LinearLayout mLinearDrawerLayout;
+  @BindView(R.id.linearDrawer) LinearLayout mLinearDrawerLayout;
 
-  @InjectView(R.id.drawerLayout) DrawerLayout mDrawerLayout;
+  @BindView(R.id.drawerLayout) DrawerLayout mDrawerLayout;
 
-  @InjectView(R.id.leftDrawerListView) ListView leftDrawerListView;
+  @BindView(R.id.leftDrawerListView) ListView leftDrawerListView;
 
   private ActionBarDrawerToggle mDrawerToggle;
 
@@ -60,7 +58,7 @@ public class MainActivity extends ActionBarActivity {
   @Override protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
-    ButterKnife.inject(this);
+    ButterKnife.bind(this);
     mTitle = mDrawerTitle = getTitle();
     getSupportActionBar().setIcon(R.drawable.ic_action_ab_transparent);
 

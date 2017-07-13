@@ -3,11 +3,9 @@ package mmbialas.pl.navigationdrawersi.ui.navigationdrawer;
 import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.ListView;
-
-import java.util.List;
-
+import butterknife.BindView;
 import butterknife.ButterKnife;
-import butterknife.InjectView;
+import java.util.List;
 import mmbialas.pl.navigationdrawersi.R;
 import mmbialas.pl.navigationdrawersi.data.model.NavigationDrawerItem;
 import mmbialas.pl.navigationdrawersi.ui.misc.BetterViewAnimator;
@@ -17,7 +15,7 @@ import mmbialas.pl.navigationdrawersi.ui.misc.BetterViewAnimator;
  */
 public class NavigationDrawerView extends BetterViewAnimator {
 
-  @InjectView(R.id.leftDrawerListView) ListView leftDrawerListView;
+  @BindView(R.id.leftDrawerListView) ListView leftDrawerListView;
 
   private final NavigationDrawerAdapter adapter;
 
@@ -33,7 +31,7 @@ public class NavigationDrawerView extends BetterViewAnimator {
 
   @Override protected void onFinishInflate() {
     super.onFinishInflate();
-    ButterKnife.inject(this);
+    ButterKnife.bind(this);
     leftDrawerListView.setAdapter(adapter);
   }
 

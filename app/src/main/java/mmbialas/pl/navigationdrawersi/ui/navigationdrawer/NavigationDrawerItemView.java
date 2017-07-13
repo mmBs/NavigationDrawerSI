@@ -9,9 +9,8 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-
+import butterknife.BindView;
 import butterknife.ButterKnife;
-import butterknife.InjectView;
 import mmbialas.pl.navigationdrawersi.R;
 import mmbialas.pl.navigationdrawersi.data.model.NavigationDrawerItem;
 
@@ -20,11 +19,11 @@ import mmbialas.pl.navigationdrawersi.data.model.NavigationDrawerItem;
  */
 public class NavigationDrawerItemView extends RelativeLayout {
 
-  @InjectView(R.id.itemRR) RelativeLayout rr;
+  @BindView(R.id.itemRR) RelativeLayout rr;
 
-  @InjectView(R.id.navigationDrawerItemTitleTV) TextView itemTitleTV;
+  @BindView(R.id.navigationDrawerItemTitleTV) TextView itemTitleTV;
 
-  @InjectView(R.id.navigationDrawerItemIconIV) ImageView itemIconIV;
+  @BindView(R.id.navigationDrawerItemIconIV) ImageView itemIconIV;
 
   final Resources res;
 
@@ -45,7 +44,7 @@ public class NavigationDrawerItemView extends RelativeLayout {
 
   @Override protected void onFinishInflate() {
     super.onFinishInflate();
-    ButterKnife.inject(this);
+    ButterKnife.bind(this);
   }
 
   public void bindTo(NavigationDrawerItem item) {

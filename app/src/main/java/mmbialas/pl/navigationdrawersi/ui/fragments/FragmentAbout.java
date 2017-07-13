@@ -1,7 +1,5 @@
 package mmbialas.pl.navigationdrawersi.ui.fragments;
 
-import com.devspark.robototextview.widget.RobotoTextView;
-
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.graphics.Typeface;
@@ -18,21 +16,26 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
+import com.devspark.robototextview.widget.RobotoTextView;
+
+import butterknife.BindView;
 import butterknife.ButterKnife;
-import butterknife.InjectView;
 import butterknife.OnClick;
+import butterknife.Unbinder;
 import mmbialas.pl.navigationdrawersi.R;
 
 /**
- * Created by Michal Bialas on 19/07/14.
+ * Created by Michal Bialas on 19/07/14
  */
 public class FragmentAbout extends Fragment {
 
-  @InjectView(R.id.aboutTextView) RobotoTextView aboutTextView;
+  @BindView(R.id.aboutTextView) RobotoTextView aboutTextView;
 
-  @InjectView(R.id.aboutTextViewAdditionalText) RobotoTextView aboutTextViewAdditionalText;
+  @BindView(R.id.aboutTextViewAdditionalText) RobotoTextView aboutTextViewAdditionalText;
 
-  @InjectView(R.id.aboutContact) RobotoTextView aboutContact;
+  @BindView(R.id.aboutContact) RobotoTextView aboutContact;
+
+  private Unbinder unbinder;
 
   public static FragmentAbout newInstance() {
     FragmentAbout fragmentAbout = new FragmentAbout();
@@ -42,7 +45,7 @@ public class FragmentAbout extends Fragment {
   @Override public View onCreateView(LayoutInflater inflater, ViewGroup containter,
       Bundle savedInstanceState) {
     View view = inflater.inflate(R.layout.fragment_about, containter, false);
-    ButterKnife.inject(this, view);
+    unbinder = ButterKnife.bind(this, view);
     setSpans();
     return view;
   }
@@ -63,7 +66,7 @@ public class FragmentAbout extends Fragment {
 
   @Override public void onDestroyView() {
     super.onDestroyView();
-    ButterKnife.reset(this);
+    unbinder.unbind();
   }
 
   private void setSpans() {

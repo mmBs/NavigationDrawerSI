@@ -8,21 +8,23 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
-import butterknife.InjectView;
+import butterknife.Unbinder;
 import mmbialas.pl.navigationdrawersi.R;
 
 /**
- * Created by Michal Bialas on 19/07/14.
+ * Created by Michal Bialas on 19/07/14
  */
 public class FragmentOne extends Fragment {
 
-  @InjectView(R.id.circleLayout) LinearLayout circleLayout;
+  @BindView(R.id.circleLayout) LinearLayout circleLayout;
+  private Unbinder unbinder;
 
   @Override public View onCreateView(LayoutInflater inflater, ViewGroup containter,
       Bundle savedInstanceState) {
     View view = inflater.inflate(R.layout.fragment_one, containter, false);
-    ButterKnife.inject(this, view);
+    unbinder = ButterKnife.bind(this, view);
     ((GradientDrawable) circleLayout.getBackground()).setColor(
         getResources().getColor(R.color.material_blue));
     return view;
@@ -30,6 +32,6 @@ public class FragmentOne extends Fragment {
 
   @Override public void onDestroyView() {
     super.onDestroyView();
-    ButterKnife.reset(this);
+    unbinder.unbind();
   }
 }
