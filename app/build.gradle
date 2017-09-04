@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
   compileSdkVersion 21
-  buildToolsVersion "26.0.0"
+  buildToolsVersion "26.0.1"
 
   defaultConfig {
     applicationId "mmbialas.pl.navigationdrawersi"
@@ -47,8 +47,8 @@ dependencies {
   compile 'com.android.support:appcompat-v7:21.+'
   compile 'com.android.support:support-v4:21.+'
 
-  compile 'com.jakewharton:butterknife:8.7.0'
-  annotationProcessor 'com.jakewharton:butterknife-compiler:8.7.0'
+  compile 'com.jakewharton:butterknife:8.8.1'
+  annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
   compile 'com.jakewharton.timber:timber:4.5.1'
 
   compile 'com.github.johnkil.android-robototextview:robototextview:2.2.0'
