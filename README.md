@@ -39,12 +39,7 @@ Credits
 -------
 Author: Michal Bialas
 
-You can find me on
-
-<a href="https://twitter.com/mmbialas" target="_blank">
-  <img alt="Follow me on Twitter"
-       src="https://github.com/mmBs/NavigationDrawerSI/blob/master/images/twitter.png" />
-</a>
+You can find me on [Twitter](https://twitter.com/mmbialas), [Medium](https://medium.com/@mmbialas), [Stackoverflow](https://stackoverflow.com/users/2065587/mmbs) and [Github](https://mmbs.github.io/).
 
 License
 -------
